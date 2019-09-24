@@ -8,7 +8,10 @@
     "start": "babel src --watch --out-dir lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "files": [
+    "lib/**.*"
+  ],
+  "keywords": ["react", "react-hooks"],
   "author": {
     "name": "Shrutesh Pachineela",
     "email": "sruteshp@gmail.com"
