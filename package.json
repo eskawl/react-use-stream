@@ -1,7 +1,7 @@
 {
   "name": "react-use-stream",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eagerly fetch pages of data for use in your react application.",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib; webpack",
