@@ -33,8 +33,9 @@ const useStream = (
             setRows((prevRows) => prevRows.concat(pageRows));
 
             if (currentPage === 1) {
-                setTotalRecords(_get(response, totalRecordsLocation));
-                totalPages = Math.ceil(totalRecords / pageRows.length);
+                const determinedTotalRecords = _get(response, totalRecordsLocation);
+                setTotalRecords(determinedTotalRecords);
+                totalPages = Math.ceil(determinedTotalRecords / pageRows.length);
             }
         };
 
