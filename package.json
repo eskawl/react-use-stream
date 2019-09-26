@@ -1,6 +1,6 @@
 {
   "name": "react-use-stream",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Eagerly fetch pages of data for use in your react application.",
   "main": "lib/index.js",
   "scripts": {
