@@ -22,7 +22,7 @@ yarn add react-use-stream
 
 ### Hook options
 
-`useStream` take the following options.
+`useStream` takes the following options.
 
 - `getPage: function(page) -> response`
 
@@ -43,7 +43,7 @@ yarn add react-use-stream
 
 ### Returns
 
-The an object containing data retrieved and some additional meta.
+Object containing data retrieved and some additional meta.
 
 - `rows`: The rows fetched
 - `streamInfo`: Object
@@ -70,7 +70,6 @@ return (
                 }
                 <Table
                     rows={rows}
-                    streamInfo={{ isStreaming, totalRecords, isLoading }}
                 />
             )
         }
